@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+	display: inline-block;
+  margin-left: 65px;
+  padding-top: 35px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.top {
+	background-color: #38eeff;
+	width: 100vw;
+	height: 10vh;
+}
+
+.bottom {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 90vh;
+}
+
+.tbox {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+
+.box {
+	width: 50%;
+	height: 90%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.b1 {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	padding-top: 100px;
+}
+
+.b2 {
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+
+p {
+	color: white;
+}
+
+.head {
+	width: 100%;
+	height: 10%;
+	padding-top: 20px;
+}
+
+.text {
+	width: 50%;
+	height: 90%;
+	padding-left: 200px;
+	padding-top: 50px;
+}
+
+.im {
+	border-radius: 50%;
+	border-style: solid;
+	border- width: 30px;
+	border-color: black;
+}
+
+.topi {
+	width: 70%;
+	height: 40%;
+}
+
+.top1 {
+	width: 100vw;
+	height: 90vh;
+}
+
+.p2 {
+	padding-top: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 50px;
+}
+
+.source {
+	color: #222;
+}
+
+.topi {
+	display: flex;
+	width: 50%;
+	heigth: 100%;
+}
+
+.protest {
+	width:600px;
+	height: 450px;
+	border-width: thick;
+	border-color: white;
+}
+
+.thesis {
+	width: 50%;
+	heigth: 100%;
+	display: block;
+	text-align: center;
+}
+
+.ttext {
+	padding: 100px;
+}
